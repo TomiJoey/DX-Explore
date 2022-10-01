@@ -1,0 +1,28 @@
+@media screen and (max-width: 850px) {
+
+    .header-desktop{
+        display: none;
+    }
+
+    .nav-mobile{
+        display: flex;
+    }
+
+    .text-content{
+        width: 100%;
+        padding-left: 30px;
+    }
+    
+    .mid-container{
+        width: 100%;
+    }
+
+    footer{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-icons{
+        margin: 10px 0;
+    }
+}

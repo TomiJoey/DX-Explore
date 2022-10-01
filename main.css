@@ -1,0 +1,236 @@
+/* ==== Page reset begins here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .btn{
+    background: tomato;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 10px;
+      
+  }
+  .btn:hover{
+    background: white;
+    color: tomato;
+  }
+  
+  .btn-wit{
+    background: white;
+    border: none;
+    color: tomato;
+    padding: 10px 10px;
+    border-radius: 10px;
+  
+     
+  }
+  .btn-wit:hover{
+    background: tomato;
+    color: white;
+  }
+  
+  
+  /* ==== Page reset stops here */
+  
+  /* ==== Header section begins here */
+  /* ==== Header section stops here */
+  
+  /* ==== Header section begins here */
+  
+  header {
+    /* border: 2px solid red; */
+    background: linear-gradient(to right, rgb(244, 107, 69,0.4), rgb(238, 168, 73,0.4)), url("./img/header.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    color: white;
+  }
+  
+  
+  .header-desktop {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  
+    
+  }
+  
+  .header-desktop ul {
+    list-style: none;
+    display: flex;
+    color: white;
+    /* border: 2px solid cyan; */
+  
+  
+  }
+  
+  .header-desktop a {
+    /* border: 3px solid black; */
+    padding: 15px 20px;
+    display: block;
+    color: white;
+  }
+  
+  .text-container { 
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .text-content{
+      /* border: 5px solid purple; */
+      width: 40%;
+  } 
+  .text-content h2{
+    margin: 40px 0;
+  }
+  
+  .text-content p {
+    margin-bottom: 20px;
+    line-height: 25px;
+    font-size: 15px;
+  
+  }
+  i{
+    margin-left: 10px;
+  }
+  
+  .nav-mobile{
+    border: 3px solid red;
+    /* display: none; */
+    display: none;
+    justify-content: space-between;
+    background: tomato;
+  }
+  
+  .nav-text{
+     /* border: 3px solid blue; */
+    height: 50px;
+    width: 300px;
+    color: white;
+    display: flex;
+    /* justify-content: center; */
+    /* padding: 20px 0 0 20px; */
+    padding: 15px 15px 0 15px
+    
+  }
+  
+  .hamburger{
+    /* border: 3px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .menu{
+    width: 80%;
+    background: white;
+    height: 3px;
+    position: relative;
+  } 
+  
+  .menu::before{
+    content: '';
+    background: white;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    transform: translateY(-8px);
+  }
+  .menu::after{
+    content: '';
+    background: white;
+    width: 100%;
+    height: 3px;
+    position: absolute;
+    transform: translateY(8px);
+  }
+  
+
+  .crossborder .menu{
+    background: transparent;
+  }
+  .crossborder .menu::before{
+    transform: rotate(-45deg);
+  }
+  .crossborder .menu::after{
+    transform: rotate(45deg);
+  }
+  /* ==== Header section stops here */ 
+  
+  
+  
+  /* ==== Middle section starts here  */
+  
+  .mid-section {
+    /* border: 4px solid purple; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+  
+   /* height: 500px; */
+  }
+  
+  .mid-container{
+    /* border: none; */
+    color: white;
+    background:tomato;
+    width: 30%;
+    border-radius: 15px;
+    margin: 20px 15px;
+    padding: 30px;
+    
+  
+  } 
+  .mid-container:hover{
+    color: tomato;
+    background: white;
+  }
+  .mid-container h2{
+    padding-bottom: 30px;
+    font-weight: bold;
+  }
+  .mid-container p{
+    padding-bottom: 20px;
+  }
+  
+  /* ==== Middle section stops here */
+  
+  
+  /* ==== Get Started section starts here */ 
+  .Get-started{
+    /* width: 100%; */
+    /* height: 100px; */
+    background: tomato; 
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px 30px 20px;
+
+  }
+  
+  /* ==== Get Started stops here */ 
+
+
+  /* ==== Footer starts here */ 
+footer{
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px 20px 10px;
+}
+  /* ==== Footer stops here */ 
